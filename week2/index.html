@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Area Calculator</title>
+</head>
+<body>
+    <h1>Rectangle Area Calculator</h1>
+    <label for="length">Length :</label>
+    <input type="number" id="length"> 
+    <br>
+    <label for="width">Width :</label>
+    <input type="number" id="width">
+    <br>
+    <button onclick="calculateArea()">Claculate Area</button>
+    <p id="result"></p>
+<!-- JavaScript -->
+    <script> 
+        function calculateArea() { //function ใช้สำหรับสร้างฟังก์ชัน ซึ่งเป็นบล็อกของโค้ด
+        let length = parseFloat(document.getElementById("length").value); //parse คือแปลงค่า e.g.ค่าทศนิยม
+        let width = parseFloat(document.getElementById("width").value); //document.getElementById คือ คำสั่งดึงelementที่ต้องการ
+        let area = length * width;
+        document.getElementById("result").innerHTML = "Area: " + area; //innerHTML คืออะไรที่อยู่ในเปิดกับปิด
+        }
+    </script>
+</body>
+</html>
