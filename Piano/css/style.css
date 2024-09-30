@@ -64,6 +64,25 @@
   z-index: 999;
 }
 
+.label {
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 2em;
+  font-size: 0.8em;
+}
+
+.black>.label {
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  width: 32px;
+  left: -16px;
+  top: 50px;
+}
+
+.octave *:active, .pressed {
+  transform: translateY(2px);
+}
 @media (max-width: 768px) {
     #piano {
       width: 358px;
