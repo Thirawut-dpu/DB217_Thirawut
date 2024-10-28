@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    font-family: "Bangers", sans-serif;
+}
+
+header h1{
+    text-align: center;
+    font-family: "Cascadia Code", sans-serif;
+    color: black;
+}
+
+.badge {
+    font-size: 14px;
+    padding: 2px 10px;
+    background-color: #e25840;
+    font-family: "Rockwell", sans-serif;
+    width: 45px;
+    position: absolute;
+    top: 30px;
+    border-radius: 5px;
+}
+
+#user-label {
+    left: -35px;
+}
+
+#comp-label {
+    right: -35px;
+}
+
+#score {
+    margin: 20px auto;
+    border:  3px solid white;
+    border-radius: 4px;
+    width: 200px;
+    font-family: "Bangers", serif;
+    font-size: 46px;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+}
+
+#result {
+    font-family: "Rockwell", serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#stage {
+    text-align: center;
+    margin: 30px
+}
+
+#comp-choice {
+    transform: rotateY(180deg);
+}
+
+#choices {
+    text-align: center;
+}
+
+#choices > div {
+    display: inline-block;
+}
+
+#choices img {
+    width: 80px;    
+}
+
+.choice {
+    margin: 0 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#message {
+    text-align: center;
+    margin-top: 25px;
+    font-family: Calibri, sans-serif;
+}
