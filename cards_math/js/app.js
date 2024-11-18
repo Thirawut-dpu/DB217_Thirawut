@@ -140,7 +140,7 @@ function pickCombinationCard(cards, c, id) {
     c - 1,
     id
   );
-}
+} 
 
 let deck = new Deck();
 let combination = [];
